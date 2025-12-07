@@ -9,7 +9,7 @@
     "mongo",
     "Radhe"
   ],
-  "stack": "heroku-22",
+  "stack": "heroku-24",
   "env": {
     "API_ID": {
       "description": "Get it from https://my.telegram.org/auth",
