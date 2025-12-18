@@ -34,7 +34,8 @@ db = mongo["BANALL"]
 users_db = db["users"]
 groups_db = db["groups"]
 
-SEMAPHORE = asyncio.Semaphore(400)   # heroku safe max speed
+SEMAPHORE = asyncio.Semaphore(400)   # heroku safe max speed #for vps you can 900 to 1500
+
 START_IMG = "https://files.catbox.moe/o7pv72.jpg"
 
 app = Client(
