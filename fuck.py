@@ -1,13 +1,3 @@
-# ======================================================================
-#  © 2025 ʙᴏᴛᴍɪɴᴇ ᴛᴇᴄʜ & ꜱʜʀᴇᴇ ᴛᴇᴄʜ. ᴀʟʟ ʀɪɢʜᴛs ʀᴇꜱᴇʀᴠᴇᴅ.
-#
-#  ᴛʜɪs ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ɪꜱ ᴘʀᴏᴛᴇᴄᴛᴇᴅ ᴜɴᴅᴇʀ ɪɴᴛᴇʟʟᴇᴄᴛᴜᴀʟ ᴘʀᴏᴘᴇʀᴛʏ ʟᴀᴡꜱ.
-#  ᴍᴏᴅɪꜰɪᴄᴀᴛɪᴏɴ, ʀᴇꜱᴇʟʟɪɴɢ, ᴘᴜʙʟɪꜱʜɪɴɢ ᴏʀ ʀᴇᴅɪꜱᴛʀɪʙᴜᴛɪᴏɴ
-#  ᴡɪᴛʜᴏᴜᴛ ᴘʀɪᴏʀ ᴘᴇʀᴍɪꜱꜱɪᴏɴ ɪꜱ ꜱᴛʀɪᴄᴛʟʏ ᴘʀᴏʜɪʙɪᴛᴇᴅ.
-#
-#  ᴏᴡɴᴇʀꜱʜɪᴘ : @BOTMINE_TECH | @TheShreeTech
-# ======================================================================
-
 import os
 import sys
 import asyncio
@@ -36,7 +26,7 @@ groups_db = db["groups"]
 
 SEMAPHORE = asyncio.Semaphore(400)   # heroku safe max speed #for vps you can 900 to 1500
 
-START_IMG = "https://files.catbox.moe/o7pv72.jpg"
+START_IMG = "https://files.catbox.moe/op0sle.jpg"
 
 app = Client(
     "BANALL-SESSION",
@@ -91,8 +81,8 @@ async def start_buttons():
     return InlineKeyboardMarkup([
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ɢʀᴏᴜᴘ", url=f"https://t.me/{me.username}?startgroup=true")],
         [
-            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/KaRn_Xd"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/BOTMINE_SUPPORT")
+            InlineKeyboardButton("ᴏᴡɴᴇʀ", url=f"https://t.me/Oyekanhaa"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/aboutkanha")
         ],
         [InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_menu")]
     ])
