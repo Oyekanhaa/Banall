@@ -26,7 +26,7 @@ groups_db = db["groups"]
 
 SEMAPHORE = asyncio.Semaphore(400)   # heroku safe max speed #for vps you can 900 to 1500
 
-START_IMG = "https://files.catbox.moe/op0sle.jpg"
+START_IMG = "https://files.catbox.moe/tvww36.jpg"
 
 app = Client(
     "BANALL-SESSION",
